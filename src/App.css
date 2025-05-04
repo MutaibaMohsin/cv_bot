@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.sidebar {
+  background-color: #0d47a1; /* Deep blue */
+  color: white;
+  width: 220px;
+  height: 100vh;
+  padding: 20px;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.sidebar li {
+  margin-bottom: 16px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.sidebar li:hover {
+  color: #ffeb3b; /* Yellow hover */
+  text-decoration: underline;
+}
