@@ -33,7 +33,7 @@ const Sidebar = () => {
 
   const handleLogout = () => {
     localStorage.removeItem('token');
-    navigate('/LandingPage');
+    navigate('/Login');
   };
 
   return (

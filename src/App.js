@@ -9,7 +9,7 @@ import CURDprojects from './pages/CURDprojects';
 import CURDexpierence from './pages/CURDexpierence';
 import CURDedu from './pages/CURDedu';
 import Layout from './components/Layout';
-import Login from './pagesLogin/';
+import Login from './pages/Login';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
