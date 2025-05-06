@@ -58,7 +58,7 @@ function CRUDEducation() {
   const handleEdit = (education) => {
     setDegree(education.degree);
     setUniversity(education.university);
-    setEditingId(education.id);
+    setEditingId(education._id);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

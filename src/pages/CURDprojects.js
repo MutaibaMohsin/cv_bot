@@ -61,7 +61,7 @@ function CRUDProjects() {
     setName(project.name);
     setDescription(project.description);
     setTechnologies((project.technologies || []).join(', '));
-    setEditingId(project.id);
+    setEditingId(project._id);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

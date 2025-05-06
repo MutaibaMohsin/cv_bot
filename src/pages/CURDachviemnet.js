@@ -61,7 +61,7 @@ function CRUDAchievements() {
     setName(ach.name);
     setOrganization(ach.organization);
     setDescription(ach.description);
-    setEditingId(ach.id);
+    setEditingId(ach._id);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

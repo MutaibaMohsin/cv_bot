@@ -65,7 +65,7 @@ function CRUDExperience() {
     setCompany(exp.company);
     setLocation(exp.location);
     setDescription((exp.description || []).join('\n'));
-    setEditingId(exp.id);
+    setEditingId(exp._id);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
