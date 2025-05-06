@@ -121,7 +121,7 @@ function CRUDAchievements() {
                   <IconButton onClick={() => handleEdit(ach)}>
                     <Edit />
                   </IconButton>
-                  <IconButton onClick={() => handleDelete(ach.id)}>
+                  <IconButton onClick={() => handleDelete(ach._id)}>
                     <Delete />
                   </IconButton>
                 </TableCell>

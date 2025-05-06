@@ -106,7 +106,7 @@ function CRUDEducation() {
                   <IconButton onClick={() => handleEdit(edu)}>
                     <Edit />
                   </IconButton>
-                  <IconButton onClick={() => handleDelete(edu.id)}>
+                  <IconButton onClick={() => handleDelete(edu._id)}>
                     <Delete />
                   </IconButton>
                 </TableCell>

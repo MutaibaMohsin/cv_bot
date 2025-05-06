@@ -125,7 +125,7 @@ function CRUDProjects() {
                 </TableCell>
                 <TableCell>
                   <IconButton onClick={() => handleEdit(proj)}><Edit /></IconButton>
-                  <IconButton onClick={() => handleDelete(proj.id)}><Delete /></IconButton>
+                  <IconButton onClick={() => handleDelete(proj._id)}><Delete /></IconButton>
                 </TableCell>
               </TableRow>
             ))}

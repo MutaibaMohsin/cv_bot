@@ -140,7 +140,7 @@ function CRUDExperience() {
                   <IconButton onClick={() => handleEdit(exp)}>
                     <Edit />
                   </IconButton>
-                  <IconButton onClick={() => handleDelete(exp.id)}>
+                  <IconButton onClick={() => handleDelete(exp._id)}>
                     <Delete />
                   </IconButton>
                 </TableCell>

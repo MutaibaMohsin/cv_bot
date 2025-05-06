@@ -9,6 +9,7 @@ import CURDprojects from './pages/CURDprojects';
 import CURDexpierence from './pages/CURDexpierence';
 import CURDedu from './pages/CURDedu';
 import Layout from './components/Layout';
+import Login from './pagesLogin/';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -34,6 +35,8 @@ function App() {
             <Route path="crud-expierence" element={<CURDexpierence />} />
             <Route path="crud-education" element={<CURDedu />} />
             <Route path="*" element={<Navigate to="/" />} />
+            <Route path="Login" element={<Login />} />
+
           </Route>
         )}
       </Routes>
